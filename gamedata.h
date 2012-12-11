@@ -5,10 +5,10 @@
 #include <QObject>
 #include <QString>
 #include <QList>
-#include <QStack>
 #include <QTime>
 #include <QTimer>
 #include <QDeclarativeListProperty>
+
 #include "tile.h"
 
 class GameData : public QObject

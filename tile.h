@@ -85,7 +85,7 @@ public:
     const QString getTileItemString();
 
     /// Returns a tile according to the letter supplied.
-    static Tile * ConstructTile(QObject * , QChar );
+    static Tile * ConstructTile(QObject * , char );
 
 private:
     /// Filename for the texture for this tile.

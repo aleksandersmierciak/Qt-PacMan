@@ -101,9 +101,9 @@ const QString Tile::getTileItemString()
     }
 }
 
-Tile * Tile::ConstructTile(QObject *tileParent, QChar tileChar)
+Tile * Tile::ConstructTile(QObject *tileParent, char tileChar)
 {
-    switch(tileChar.toAscii())
+    switch(tileChar)
     {
     case 'W':
         // It is a wall, we need to determine the sprite.
@@ -139,7 +139,7 @@ Tile * Tile::ConstructTile(QObject *tileParent, QChar tileChar)
         return new Tile(tileParent, 0, true, NONE, EMPTY, NOTHING);
         break;
     default:
-        qDebug("Error: tile character not recognized: " + tileChar.toAscii());
+        qDebug("Error: tile character not recognized: " + tileChar);
         return 0;
         break;
     }
