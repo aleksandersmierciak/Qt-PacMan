@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/background-space.jpg</file>
+        <file>images/check.png</file>
+        <file>images/delete.png</file>
+        <file>images/minimize.png</file>
+        <file>images/pacman_movement.gif</file>
+        <file>images/pacman_static.png</file>
+        <file>images/board/corner.png</file>
+        <file>images/board/corner_border.png</file>
+        <file>images/board/corner_double.png</file>
+        <file>images/board/corner_square.png</file>
+        <file>images/board/gate.png</file>
+        <file>images/board/line.png</file>
+        <file>images/board/line_double.png</file>
+        <file>images/board/line_square.png</file>
+        <file>images/board/pellet.png</file>
+        <file>images/board/powerup.png</file>
+        <file>data/original.map</file>
+    </qresource>
+</RCC>
